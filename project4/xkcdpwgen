@@ -12,7 +12,7 @@ parser.add_argument('-s', '--symbols',default=0,help=textwrap.dedent('''insert S
 args = parser.parse_args()
 file = open("./words.txt", 'r')
 wordlists = file.readlines();
-symbols = ['\~','\!','\@','\#','\$','\%','\^','\&','\*','\.','\:','\;']
+symbols = ['~','!','@','#','$','%','^','&','*','.',':',';']
 
 def createNum(num):
     str = []
