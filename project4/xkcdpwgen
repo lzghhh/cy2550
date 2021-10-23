@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import argparse, textwrap, random, sys
-from typing import final
 
 parser = argparse.ArgumentParser(description='Generate a secure, memorable password using the XKCD method',formatter_class=argparse.RawTextHelpFormatter)
 parser.add_argument('-w', '--words',help=textwrap.dedent('''include WORDS words in the password (default=4)'''), metavar="WORDS", type=int)
