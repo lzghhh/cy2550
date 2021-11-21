@@ -1,7 +1,10 @@
+chmod 755 /home/bob
 chmod 755 /usr/bin/bash
 chmod 755 /usr/bin/ls
 chmod 4755 /usr/bin/passwd
 chmod 755 /usr/bin/sha1sum
 chmod 755 /usr/local/bin
 chmod 755 /usr/sbin/adduser
-
+chmod 775 /var/log
+chown root:root /usr/local/share/man
+chown root:root /var/log/apt
