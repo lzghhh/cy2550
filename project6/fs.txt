@@ -1,4 +1,3 @@
-chmod 610 /dev/console
 chmod 755 /usr/bin/bash
 chmod 755 /usr/bin/ls
 chmod 4755 /usr/bin/passwd
