@@ -10,10 +10,10 @@
   /etc/hosts r,
   /etc/passwd r,
   /etc/timezone r,
-  /home/lzghhh/.project2/config w,
+  @{HOME}/.project2/config w,
   /proc/uptime r,
   /var/log/syslog r,
   @{HOME}/template r,
-
-
+  deny /proc/meminfo r,
+  deny /proc/stat r,
 }
